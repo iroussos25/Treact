@@ -16,6 +16,17 @@
     margin: 0 auto;
 }
 
+.stars {
+    margin-bottom: 8px;
+    color: #fabf2a;
+    height: 8px;
+    font-family: "Font Awesome 5 Pro";
+}
+.fas {
+    font-size: 16px;
+    color: #fabf2a;
+}
+
 /*NAV BAR*/
 .nav__row {
     display: flex;
