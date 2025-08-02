@@ -115,11 +115,10 @@
     }
     .customers__wrapper {
         width: 100%;
-        background-color: red;
     }
-    .customers_strip {
-        width: 50%;
-        
+    .customers__strip {
+        width: 80%;
+        opacity: 0.5;
     }
 
     img {
