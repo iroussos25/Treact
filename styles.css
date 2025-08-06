@@ -67,18 +67,31 @@
 .nav__links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
     }
     .nav__link {
         text-decoration: none;
         margin-right: 36px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
     }
 
-    li{
-        list-style: none;
+    .nav__link--last {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #6415ff;
+        padding: 8px 16px;
+        border-radius: 400px;
+        text-decoration: none;
+        transition: background-color 0.3s ease-in-out;
+    }
+    .nav__link--last:hover {
+        background-color: rgb(63, 13, 110);
     }
 
+   
     /*HEADER*/
     .header__title {
         font-size: 48px;
@@ -119,6 +132,7 @@
         margin: 36px 0;
         border: solid 2px #7c7e82;
         border-radius: 600px;
+        overflow: hidden;
         
     }
     
