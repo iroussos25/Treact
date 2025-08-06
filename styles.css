@@ -184,22 +184,26 @@
 
         .features {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: space-between;        
         margin: 0 auto;
         flex-wrap: wrap;
     }
     .feature__wrapper {
 
         margin-right: 16px;
-        border: solid black;
+        border: solid 1px #e5e7eb;
         border-width: 1px;
         border-radius: 500px;
         padding: 16px;
     }
 
     .feature__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin-top: 16px;
         text-align: left;
         padding-bottom: 16px;
+        
+
     }
