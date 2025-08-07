@@ -9,7 +9,7 @@
 
 .h2, .step__title, .values__title, .pricing__title, .testimonials__title {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     color: #6415ff
 }
 
@@ -44,6 +44,9 @@
     justify-content: space-between;
     margin: 24px 12px;
     padding: 8px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .nav__container {
     display: flex;
@@ -169,7 +172,7 @@
         opacity: 0.5;
     }
 
-    img {
+    .img {
         width: 100%;
         height: 100%;
         max-height: 50vh;
@@ -196,7 +199,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;}
+    margin: 0 auto;
+width: 100%;
+    max-width: 1200px;
+    padding: 48px;
+    }
 
     .feature__img {
         height: 24px;
@@ -230,7 +237,95 @@
         justify-content: center;
         margin-top: 16px;
         text-align: left;
-        padding-bottom: 16px;
+        padding: 16px;
         
-
     }
+
+    .features__heading {
+        font-weight: 900;
+        font-size: 48px;
+        padding: 24px 0;
+    }
+
+    .features__subhead{
+        font-weight: 600;
+        font-size: 16px;
+        color: #6a707a;
+        margin-bottom: 24px;
+        width: 700px;
+    }
+
+    .feature__h2 {
+        font-weight: 600;
+        font-size: 24px;
+        color: black;
+        margin-bottom: 16px;
+    }
+
+    .feature__text p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #6a707a;
+    }
+
+    /*QUALITY*/
+.quality__btn {
+     width: 160px;
+        height: 48px;
+        background-color: #6415ff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 400px;
+        font-size: 16px;
+        font-weight: 600;
+        transition: background-color 0.3s ease-in-out;
+        margin: 4px;
+}
+.quality__btn:hover {
+     background-color: rgb(63, 13, 110);
+}
+
+.quality__work--heading {
+     font-weight: 900;
+        font-size: 48px;
+        padding: 24px 0;
+}
+
+.row.quality__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quality__work--wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quality__image--wrapper {
+    width: 100%;
+    border: 1px solid #e5e7eb;
+    
+}
+.quality__img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.quality__grid{
+    height: 88px;
+    position: absolute;
+    right: -45px;
+    down: -100px;
+}
+
+.quality__bucket {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
