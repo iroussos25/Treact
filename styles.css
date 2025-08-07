@@ -322,6 +322,8 @@ width: 100%;
     position: absolute;
     right: -45px;
     down: -100px;
+    color: #6415ff;
+    z-index: -2;
 }
 
 .quality__bucket {
