@@ -7,6 +7,10 @@
     font-family: Inter;
 }
 
+body {
+    width: 100%;
+}
+
 .h2, .step__title, .values__title, .pricing__title, .testimonials__title {
     font-size: 16px;
     font-weight: 700;
@@ -373,10 +377,11 @@
     left: 320px;
 }
 .steps__bucket {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     display: flex;
 }
+
 
 .step__h2{
     font-weight: 600;
@@ -385,8 +390,61 @@
         margin-bottom: 16px;
 }
 
-.steps__bucket{
+.quality__img {
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*vALUES*/
+.values__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 80px 0;
+}
+.values__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.values__figure {
+    width: 50%;
+}
+
+.values__wrapper {
     width: 50%;
     display: flex;
     flex-direction: column;
+
+}
+
+.values__list{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.li__heading {
+    display: flex;
+}
+
+.dollarsign, .briefcase {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.dollarsign {
+    background-color: rgb(154 230 180);
+    border-radius: 50%;
 }
