@@ -395,12 +395,15 @@ body {
         margin-bottom: 16px;
 }
 
-.quality__img {
-    width: 10px;
+.steps__img {
+    width: 100%;
     height: auto;
 }
 
-
+.step__figure, 
+.steps__content {
+    width: 50%;
+}
 
 
 
@@ -445,9 +448,11 @@ body {
 }
 
 .dollarsign, .briefcase {
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
     margin-right: 8px;
+}
+.dollarsign svg, .briefcase svg {
 }
 
 .dollarsign {
@@ -459,4 +464,11 @@ body {
     background-color: rgb(254 178 178);
     border-radius: 50%;
     color: rgb(155 44 44);
+}
+
+.li__affordable, .li__professional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 24px;
 }
