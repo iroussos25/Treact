@@ -282,13 +282,18 @@ body {
 }
 
 .quality__work--heading,
-.steps__heading {
+.steps__heading,
+.values__heading {
+        font-weight: 900;
+        font-size: 48px;
+        padding: 24px 0;
      font-weight: 900;
         font-size: 48px;
         padding: 24px 0;
 }
 
-.quality__work--text {
+.quality__work--text,
+.values__text {
     font-weight: 600;
     font-size: 18px;
     color: #6a707a;
@@ -391,7 +396,7 @@ body {
 }
 
 .quality__img {
-    width: 10%;
+    width: 10px;
     height: auto;
 }
 
@@ -448,4 +453,10 @@ body {
 .dollarsign {
     background-color: rgb(154 230 180);
     border-radius: 50%;
+    color: green;
+}
+.briefcase {
+    background-color: rgb(254 178 178);
+    border-radius: 50%;
+    color: rgb(155 44 44);
 }
