@@ -391,7 +391,8 @@ body {
 }
 
 .quality__img {
-    width: 200px;
+    width: 10%;
+    height: auto;
 }
 
 
