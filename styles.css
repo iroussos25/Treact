@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Inter;
-    width: 100%;
 }
 
 .h2, .step__title, .values__title, .pricing__title, .testimonials__title {
@@ -225,7 +224,7 @@
     .feature__text {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         margin-top: 16px;
         text-align: left;
         padding: 16px;
@@ -253,10 +252,11 @@
         margin-bottom: 16px;
     }
 
-    .feature__text p {
+    .feature__p{
         font-weight: 400;
         font-size: 16px;
         color: #6a707a;
+        line-height: 2;
     }
 
     /*QUALITY*/
@@ -271,22 +271,31 @@
         font-size: 16px;
         font-weight: 600;
         transition: background-color 0.3s ease-in-out;
-        margin: 4px;
+        margin-top: 24px;
 }
 .quality__btn:hover {
      background-color: rgb(63, 13, 110);
 }
 
-.quality__work--heading {
+.quality__work--heading,
+.steps__heading {
      font-weight: 900;
         font-size: 48px;
         padding: 24px 0;
 }
 
+.quality__work--text {
+    font-weight: 600;
+    font-size: 18px;
+    color: #6a707a;
+    line-height: 2;
+    margin-bottom: 24px;
+}   
 .row.quality__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 8px;
 }
 
 .quality__work--wrapper {
@@ -315,17 +324,46 @@
 }
 
 .quality__bucket {
-    width: 100%;
-    height: 100%;
+   width: 50%;
     display: flex;
+    margin-left: 24px;
 }
 
 
 
+/*STEPS*/
+.steps__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 80px 0;
+    position: relative;
+}
 
+.steps__row {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    position: relative;
+}
 
+.step__p{
+    font-weight: 400;
+        font-size: 16px;
+        color: #6a707a;
+        line-height: 2;
+}
 
-
+.step {
+    display: flex;
+    margin-bottom: 24px;
+    }
+.step__number {
+    color: #6a707a;
+    font-weight: 600;
+    opacity: 0.5;
+    font-size: 42px;
+    margin-right: 36px;
+}
 
 
 
@@ -338,5 +376,17 @@
     width: 100%;
     height: 100%;
     display: flex;
-    position: relative;
+}
+
+.step__h2{
+    font-weight: 600;
+        font-size: 24px;
+        color: black;
+        margin-bottom: 16px;
+}
+
+.steps__bucket{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
