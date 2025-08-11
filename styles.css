@@ -105,7 +105,7 @@ body {
     .header__row {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 24px;
     }
     .templates__wrapper {
@@ -264,6 +264,14 @@ body {
     }
 
     /*QUALITY*/
+
+.quality__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 24px 0;
+    position: relative;
+    margin: 12px 36px;
+}
 .quality__btn {
      width: 160px;
         height: 48px;
@@ -283,7 +291,8 @@ body {
 
 .quality__work--heading,
 .steps__heading,
-.values__heading {
+.values__heading,
+.pricing__heading {
         font-weight: 900;
         font-size: 48px;
         padding: 24px 0;
@@ -304,7 +313,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px;
+    margin: 0 48px;
 }
 
 .quality__work--wrapper {
@@ -342,10 +351,11 @@ body {
 
 /*STEPS*/
 .steps__container {
-    width: 100%;
+     width: 100%;
     max-width: 1200px;
-    padding: 80px 0;
+    padding: 24px 0;
     position: relative;
+    margin: 12px 36px;
 }
 
 .steps__row {
@@ -353,9 +363,11 @@ body {
     align-items: space-between;
     justify-content: space-between;
     position: relative;
+    margin: 56px 0;
 }
 
-.step__p{
+.step__p, 
+.values__p {
     font-weight: 400;
         font-size: 16px;
         color: #6a707a;
@@ -416,17 +428,24 @@ body {
 
 /*vALUES*/
 .values__container {
-    width: 100%;
+   width: 100%;
     max-width: 1200px;
-    padding: 80px 0;
+    padding: 24px 0;
+    position: relative;
+    margin: 12px 46px;
 }
 .values__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 24px;
 }
 .values__figure {
     width: 50%;
+}
+.values__img {
+    width: 100%;
+    max-height: 500px;
 }
 
 .values__wrapper {
@@ -441,6 +460,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     list-style: none;
+    margin-top: 24px;
 }
 
 .li__heading {
@@ -456,8 +476,13 @@ body {
     justify-content: center;
     border-radius: 50%;
 }
+
 .dollarsign svg, .briefcase svg {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
+
 
 .dollarsign {
     background-color: rgb(154 230 180);
@@ -473,6 +498,76 @@ body {
 .li__affordable, .li__professional {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-right: 24px;
+}
+
+.values__p {
+    padding-top: 24px;
+}
+
+.values__button {
+    width: 160px;
+    height: 48px;
+    background-color: #6415ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 36px;}
+
+.values__button:hover {
+    background-color: rgb(63, 13, 110);
+}
+
+
+/*PRICING*/
+
+.pricing__wrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pricing__text {
+    font-weight: 600;
+    font-size: 18px;
+    color: #6a707a;
+    line-height: 2;
+    margin-bottom: 48px;
+    width: 500px;
+    text-align: center;
+
+}
+
+.card__title--box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #e5e7eb;
+}
+
+.pricing__card {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+
 }
