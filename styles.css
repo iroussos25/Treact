@@ -530,8 +530,6 @@ body {
     width: 100%;
     max-width: 1200px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .pricing__row{
@@ -552,13 +550,46 @@ body {
 
 }
 
-.card__title--box {
+.card__title--box-personal {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: solid 1px #e5e7eb;
+    border-top: solid 8px rgb(55, 179, 173);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 24px 0;
 }
+
+.card__title--box-business {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #e5e7eb;
+    border-top: solid 8px #6415ff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 24px 0;
+}
+
+.card__title--box-enterprise {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #e5e7eb;
+    border-top: solid 8px rgb(245, 101, 101);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 24px 0;
+}
+    
+    
 
 .pricing__card {
     width: calc(100% / 3);
@@ -567,7 +598,55 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    list-style: none;
-    text-decoration: none;
+    margin: 0 12px;
+}
 
+.pricing__card--features {
+    
+    list-style-type: none;
+}
+
+.card__body--box, 
+.card__button--box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #e5e7eb;
+    padding: 24px 0;
+}
+
+.btn__personal,
+.btn__business,
+.btn__enterprise {
+    width: 160px;
+    height: 48px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.btn__personal {
+    background-color: rgb(55, 179, 173);
+}
+.btn__personal:hover {
+    background-color: rgb(0, 128, 128);
+}
+.btn__business {
+    background-color: #6415ff;
+}
+.btn__business:hover {
+    background-color: rgb(63, 13, 110);
+}
+.btn__enterprise {
+    background-color: rgb(245, 101, 101);
+}
+.btn__enterprise:hover {
+    background-color: rgb(155, 44, 44);
 }
