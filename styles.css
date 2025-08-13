@@ -292,7 +292,8 @@ body {
 .quality__work--heading,
 .steps__heading,
 .values__heading,
-.pricing__heading {
+.pricing__heading,
+.pricing__card--price {
         font-weight: 900;
         font-size: 48px;
         padding: 24px 0;
@@ -368,6 +369,7 @@ body {
 
 .step__p, 
 .values__p {
+    
     font-weight: 400;
         font-size: 16px;
         color: #6a707a;
@@ -530,6 +532,7 @@ body {
     width: 100%;
     max-width: 1200px;
     display: flex;
+    align-items:start;
 }
 
 .pricing__row{
@@ -615,10 +618,10 @@ body {
     justify-content: center;
     border: solid 1px #e5e7eb;
     padding: 24px 0;
+
 }
 
 .btn__personal,
-.btn__business,
 .btn__enterprise {
     width: 160px;
     height: 48px;
@@ -639,7 +642,16 @@ body {
     background-color: rgb(0, 128, 128);
 }
 .btn__business {
-    background-color: #6415ff;
+    background-color: white;
+    color:#6415ff;
+    width: 160px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    border-radius: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
 }
 .btn__business:hover {
     background-color: rgb(63, 13, 110);
@@ -649,4 +661,32 @@ body {
 }
 .btn__enterprise:hover {
     background-color: rgb(155, 44, 44);
+}
+
+.pricing__card--duration {
+    font-weight: 600;
+        font-size: 16px;
+        color: #6a707a;}
+
+.pricing__card--features {
+    font-weight: 400;
+        font-size: 16px;
+        color: #6a707a;
+        line-height:3;
+}
+.card__title--box-business, 
+.card__body--box-business{
+    background-color: #6415ff;
+    color: white;
+    width: 100%;
+}
+
+.card__button--box-business{
+    background-color: #6415ff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
 }
