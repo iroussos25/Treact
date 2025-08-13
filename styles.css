@@ -293,7 +293,8 @@ body {
 .steps__heading,
 .values__heading,
 .pricing__heading,
-.pricing__card--price {
+.pricing__card--price,
+.testimonials__heading {
         font-weight: 900;
         font-size: 48px;
         padding: 24px 0;
@@ -301,7 +302,8 @@ body {
 }
 
 .quality__work--text,
-.values__text {
+.values__text,
+.testimonials__text {
     font-weight: 600;
     font-size: 18px;
     color: #6a707a;
@@ -366,7 +368,8 @@ body {
 }
 
 .step__p, 
-.values__p {
+.values__p,
+.testimonials__text2 {
     
     font-weight: 400;
         font-size: 16px;
@@ -641,7 +644,7 @@ body {
 .btn__personal:hover {
     background-color: rgb(0, 128, 128);
 }
-.btn__business {
+.button__business {
     background-color: white;
     color:#6415ff;
     width: 160px;
@@ -706,4 +709,46 @@ body {
     border: #a0aec0 solid 1px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
+}
+.button__business:hover {
+    background-color: rgb(189, 185, 193);
+}
+
+
+/*TESTIMONIALS*/
+.testimonials__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 24px 0;
+    position: relative;
+    margin: 12px 36px;
+}
+
+.testimonials__row {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+}
+.testimonials__figure {
+    width: 50%;
+    margin: 0 24px;
+}
+.testimonials__img {
+    width: 100%;
+    
+}
+
+.testimonials__wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 24px;
+}
+
+.stars {
+    width: 100%;
+    height: 40px;
 }
