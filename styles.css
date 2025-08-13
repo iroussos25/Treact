@@ -297,9 +297,7 @@ body {
         font-weight: 900;
         font-size: 48px;
         padding: 24px 0;
-     font-weight: 900;
-        font-size: 48px;
-        padding: 24px 0;
+     
 }
 
 .quality__work--text,
@@ -618,6 +616,8 @@ body {
     justify-content: center;
     border: solid 1px #e5e7eb;
     padding: 24px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 
 }
 
@@ -679,6 +679,7 @@ body {
     background-color: #6415ff;
     color: white;
     width: 100%;
+    padding: 24px 0;
 }
 
 .card__button--box-business{
@@ -689,4 +690,20 @@ body {
     align-items: center;
     justify-content: center;
     padding: 24px 0;
+}
+
+.pricing__card--price-business {
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    padding: 24px 0;
+}
+.pricing__card--features-busieness {
+    line-height: 3;
+}
+
+.card__button--box-business {
+    border: #a0aec0 solid 1px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
