@@ -342,10 +342,10 @@ body {
 }
 
 .quality__grid{
-    height: 88px;
+    height: 25%;
     position: absolute;
-    right: -8%;
-    top: 50%;
+    right: -10%;
+    top: 40%;
     fill: #6415ff;
     z-index: -1;
 }
@@ -354,6 +354,7 @@ body {
    width: 50%;
     display: flex;
     margin-left: 24px;
+    position: relative;
 }
 
 
@@ -368,8 +369,9 @@ body {
 }
 
     .steps__figure {
-        width: 90%;
+        width: 85%;
         height: auto;
+        position: relative;
 }
 
 .steps__row {
@@ -403,18 +405,19 @@ body {
 }
 
 
-
 .steps__grid {
-    height: 88px;
+    height: 50%;
+    width: auto;
     position: absolute;
-    left: 20%;
-    bottom: 20%;
+    left: 33%;
+    bottom: -30%;
     z-index: -1;
 }
 .steps__bucket {
     max-width: 100%;
     height: auto;
     display: flex;
+    align-items: center;
 }
 
 
