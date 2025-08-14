@@ -409,6 +409,7 @@ body {
     position: absolute;
     left: 20%;
     bottom: 20%;
+    z-index: -1;
 }
 .steps__bucket {
     max-width: 100%;
