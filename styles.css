@@ -7,6 +7,14 @@
     font-family: Inter;
 }
 
+button:active {
+    transform: scale(0.95);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
 }
@@ -927,6 +935,10 @@ align-items: center;
     color: white;
     text-decoration: none;
     line-height: 3;
+    transition: all 0.8s ease-in-out;
+}
+.footer__link:hover{
+    text-decoration: underline;
 }
 
 .category__title {
@@ -972,6 +984,8 @@ align-items: center;
         align-items: center;
         justify-content: center;
     }
+
+
     .social__link svg {
         width: 36px;
         height: 36px;
@@ -983,4 +997,5 @@ align-items: center;
 
 #footer {
     background-color: #6415ff;
+    padding-bottom: 32px;
 }
