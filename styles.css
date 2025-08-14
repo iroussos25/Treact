@@ -785,7 +785,7 @@ align-items: center;
 .testimonials__arrows {
     display: flex;
     align-items: center;
-    width: 100%;
+    
 }
 
 .right__arrow, .left__arrow {
@@ -808,8 +808,7 @@ align-items: center;
     color: #6415ff;
 }
 .right__arrow:hover, .left__arrow:hover {
-    background-color: #6415ff;
-    border-color: #6415ff;
+    background-color: #6bb8f7;
 }
 
 .people {
@@ -820,4 +819,72 @@ align-items: center;
     align-items: center;
     justify-content: space-between;
     
+}
+
+/*START*/
+
+.start__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 24px 0;
+    position: relative;
+    margin: 12px 36px;
+}
+.start__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 24px;
+    background-color: #6415ff;
+    color: white;
+    width: 100%;
+
+}
+
+.title__start {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 56px 24px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.btn__start, .btn__contact {
+    color: white;
+    width: 160px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    border-radius: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn__start {
+    background-color: orangered;
+}
+
+.btn__contact {
+    background-color: rgb(84, 227, 218)
+}
+
+.btn__start:hover {
+    background-color: rgb(200, 65, 15);
+}
+.btn__contact:hover {
+    background-color: rgb(0, 128, 128);
+}
+
+
+.start__buttons {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 48px;
 }
