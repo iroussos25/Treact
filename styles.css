@@ -897,7 +897,7 @@ align-items: center;
     max-width: 1200px;
     padding: 24px 0;
     position: relative;
-    margin: 64px 0;
+    margin-top: 64px;
 }
 
 .footer__row{
@@ -944,8 +944,13 @@ align-items: center;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        padding: 24px 0;
+        padding: 24px 68px;
 
+    }
+    .footer__title {
+        font-weight: 900;
+        font-size: 16px;
+        color: white;
     }
 
     .footer__logo {
@@ -976,3 +981,6 @@ align-items: center;
         border-radius: 24px;
     }
 
+#footer {
+    background-color: #6415ff;
+}
