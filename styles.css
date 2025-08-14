@@ -346,7 +346,7 @@ body {
     position: absolute;
     right: -8%;
     top: 50%;
-    color: #6415ff;
+    fill: #6415ff;
     z-index: -1;
 }
 
@@ -365,6 +365,11 @@ body {
     padding: 24px 0;
     position: relative;
     margin: 12px 36px;
+}
+
+    .steps__figure {
+        width: 90%;
+        height: auto;
 }
 
 .steps__row {
@@ -402,8 +407,8 @@ body {
 .steps__grid {
     height: 88px;
     position: absolute;
-    left: 25%;
-    bottom: 15%;
+    left: 20%;
+    bottom: 20%;
 }
 .steps__bucket {
     max-width: 100%;
@@ -428,14 +433,6 @@ body {
 .steps__content {
     width: 50%;
 }
-
-
-
-
-
-
-
-
 
 
 /*vALUES*/
