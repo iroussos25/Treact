@@ -811,3 +811,13 @@ align-items: center;
     background-color: #6415ff;
     border-color: #6415ff;
 }
+
+.people {
+    margin-bottom: 24px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
