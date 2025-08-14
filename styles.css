@@ -344,10 +344,10 @@ body {
 .quality__grid{
     height: 88px;
     position: absolute;
-    right: -45px;
-    down: -100px;
+    right: -8%;
+    top: 50%;
     color: #6415ff;
-    z-index: 1;
+    z-index: -1;
 }
 
 .quality__bucket {
@@ -935,11 +935,27 @@ align-items: center;
     color: white;
     text-decoration: none;
     line-height: 3;
-    transition: all 0.8s ease-in-out;
+    position: relative;
 }
-.footer__link:hover{
-    text-decoration: underline;
-}
+
+    .footer__link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        background: #fff;
+        transition: all 0.3s ease;
+        opacity: 0;
+
+    }
+    .footer__link:hover::after {
+        opacity: 1;
+    }
+
+    .footer__link:hover {
+        text-decoration: underline;
+    }
 
 .category__title {
     font-size: 18px;
