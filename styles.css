@@ -402,7 +402,8 @@ body {
 .steps__grid {
     height: 88px;
     position: absolute;
-    left: 320px;
+    left: 25%;
+    bottom: 15%;
 }
 .steps__bucket {
     max-width: 100%;
@@ -943,6 +944,7 @@ align-items: center;
         position: absolute;
         left: 0;
         bottom: -6px;
+        height: 2px;
         width: 100%;
         background: #fff;
         transition: all 0.3s ease;
@@ -953,9 +955,6 @@ align-items: center;
         opacity: 1;
     }
 
-    .footer__link:hover {
-        text-decoration: underline;
-    }
 
 .category__title {
     font-size: 18px;
