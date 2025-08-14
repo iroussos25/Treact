@@ -902,6 +902,7 @@ align-items: center;
 
 .footer__row{
     width: 100%;
+    margin: 0 auto;
     max-width: 1200px;
     display: flex;
     flex-direction: column;
@@ -936,13 +937,42 @@ align-items: center;
 .t__foot {
     width: 24px;
     height: 24px;
-    background-color: white;
-    color: #6415ff;
     }
 
-.t__foot svg {
-    color: #6415ff;
-    background-color: white;
-}    
+    .footer__foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 24px 0;
 
+    }
+
+    .footer__logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start
+    }
+
+    .social__links {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+.social__link {
+        text-decoration: none;
+        margin-right: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .social__link svg {
+        width: 36px;
+        height: 36px;
+        color: darkblue;
+        background-color: white;
+        padding: 10px;
+        border-radius: 24px;
+    }
 
