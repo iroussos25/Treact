@@ -47,6 +47,7 @@ body {
 
 .container {
     padding: 80px 0;
+68    margin: 48px;
 }
 
 /*NAV BAR*/
@@ -59,7 +60,6 @@ body {
 .nav__container {
     display: flex;
     align-items: center;
-    margin: 48px;
     padding: 0 24px;
 
 }
@@ -109,7 +109,6 @@ body {
 
     .header__container {
         width: 100%;
-        margin: 0 auto;
     }
     .header__title {
         font-size: 48px;
@@ -118,8 +117,6 @@ body {
         margin-bottom: 16px;
     }
     .header__row {
-        width: 100%;
-        max-width: 1200px;
         margin: 68px;
         display: flex;
         align-items: center;
@@ -212,7 +209,7 @@ body {
 .features__row{
     width: 100%;
     max-width: 1200px;
-    margin-left: 84px;
+    margin-left: 184px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,12 +235,11 @@ body {
         flex-wrap: wrap;
     }
     .feature__wrapper {
-
         margin-right: 16px;
         border: solid 1px #e5e7eb;
         border-width: 1px;
         border-radius: 500px;
-        padding: 16px;}
+        padding: 16px; 0}
 
     .feature__text {
         display: flex;
@@ -286,11 +282,8 @@ body {
     /*QUALITY*/
 
 .quality__container {
-    width: 100%;
-    max-width: 1200px;
-    padding: 24px 0;
     position: relative;
-    margin: 12px 36px;
+    margin: 12px 68px;
 }
 .quality__btn {
      width: 160px;
@@ -373,13 +366,6 @@ body {
 
 
 /*STEPS*/
-.steps__container {
-     width: 100%;
-    max-width: 1200px;
-    padding: 24px 0;
-    position: relative;
-    margin: 12px 36px;
-}
 
     .steps__figure {
         width: 85%;
@@ -392,7 +378,7 @@ body {
     align-items: space-between;
     justify-content: space-between;
     position: relative;
-    margin: 56px 0;
+    margin: 84px 68px;
 }
 
 .step__p, 
@@ -454,17 +440,13 @@ body {
 
 /*vALUES*/
 .values__container {
-   width: 100%;
-    max-width: 1200px;
-    padding: 24px 0;
-    position: relative;
-    margin: 12px 46px;
+    margin:  46px;
 }
 .values__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 24px;
+    margin: 68px;
 }
 .values__figure {
     width: 50%;
@@ -744,13 +726,13 @@ body {
     max-width: 1200px;
     padding: 24px 0;
     position: relative;
-    margin: 12px 36px;
+    margin: 86px 36px;
 }
 
 .testimonials__row {
 width: 100%;
 max-width: 1200px;
-margin: 0 auto;
+margin:68px;
 display: flex;
 align-items: center;
 }
@@ -857,7 +839,7 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 24px;
+    margin: 0 68px;
     background-color: #6415ff;
     color: white;
     width: 100%;
@@ -925,7 +907,7 @@ align-items: center;
 
 .footer__row{
     width: 100%;
-    margin: 0 auto;
+    margin: 0 64px;
     max-width: 1200px;
     display: flex;
     flex-direction: column;
