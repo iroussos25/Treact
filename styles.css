@@ -19,7 +19,6 @@ html {
 body {
     width: 100%;
     max-width: 100vw;
-    overflow: hidden;
 }
 
 .h2, .step__title, .values__title, .pricing__title, .testimonials__title {
@@ -1070,10 +1069,19 @@ align-items: center;
 
 /*LARGE TABLETS AND SMALL LAPTOPS*/
 
-@media (max-width: 1024) {
-    .row {
+@media (max-width: 1024px) {
+    .header__row {
+        width: 100%;
+        max-width: 1024px;
         flex-direction: column;
+        align-items: center;
+        margin: 24 auto;
+                
     }
+    .header__title {
+        font-size: 28px;
+    }
+
 }
 
 
