@@ -1087,6 +1087,10 @@ align-items: center;
         flex-direction: column;
         align-items: center;
     }
+
+    .customers {
+        margin-bottom: 24px;
+    }
     
 
 .templates__wrapper {
@@ -1214,17 +1218,66 @@ margin-left:0;
     background-color: #fff;
 }
 
+
 .fa-bars {
     color: #6415ff;
     border: none;
     width: 48px;
     height: 48px;
+    transition: all 300ms ease-in-out;
 
 }
+
+.fa-bars:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+
 .fas {
    font-size: 32px;
 }
 
+.menu__link {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu__list {
+    list-style: none;
+}
+
+.menu__list--last {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #6415ff;
+        padding: 8px 16px;
+        border-radius: 400px;
+        text-decoration: none;
+        list-style: none;
+        transition: background-color 0.3s ease-in-out;
+    }
+    .menu__list--last:hover {
+        background-color: rgb(63, 13, 110);
+    }
+
+    .fas {
+        color: #6415ff;
+        border: none;
+        transition: all 300ms ease-in-out;
+    }
+
+    .fas:hover {
+        color:purple;
+        cursor: pointer;
+    }
+    .btn__menu--close {
+
+        background-color: #1a202c;
+    }
+    
+    
 }
 
 /*SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
