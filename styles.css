@@ -1070,20 +1070,150 @@ align-items: center;
 /*LARGE TABLETS AND SMALL LAPTOPS*/
 
 @media (max-width: 1024px) {
+
     .header__row {
+        display: flex;
         width: 100%;
         max-width: 1024px;
         flex-direction: column;
         align-items: center;
-        margin: 24 auto;
-                
-    }
-    .header__title {
-        font-size: 28px;
+        margin:0 auto;
+        padding: 64px 0
+        
     }
 
+    .customers__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+.templates__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.image__wrapper {
+    align-items: center;
+    margin: 64px 0;
+    width:70%;
+    height: auto;
+    max-width: 720px;
+}
+.header__img {
+    width: 100%;
 }
 
+.features__row {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative
+}
+
+.steps__figure {
+    position: relative;
+    bottom: -30%
+}
+
+.steps__row {
+    margin-bottom: 64px;
+}
+
+.feature {
+    width: calc(100% / 2);
+    display: flex;
+    align-items: center;
+    
+}
+.features {
+    margin: 64px
+}
+.testimonials__heading, .values__heading,.pricing__heading,  .features__heading, .quality__work--heading, .header__title, .steps__heading{
+    font-size: 36px;
+    font-weight: 900;
+}
+.steps__bucket {
+    width: 50%;
+}
+
+.steps__content {
+    margin-right: 48px;
+    max-width: 400px;
+    position: absolute;
+    right:5%
+}
+
+.values__row {
+    margin-top: 64px;
+    padding-top: 284px;
+}
+
+.values__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 56px;
+}
+
+.li__professional {
+    margin-top: 48px;
+}
+
+.pricing__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__card {
+    margin: 16px
+}
+
+.testimonials__container {
+    margin: 0 auto;
+}
+
+.testimonials__row {
+    margin: 0 auto
+}
+.testimonials__figure {
+    width:40% ;
+}
+.testimonials__wrapper {
+    width: 40%
+}
+
+.start__row {
+display: flex;
+flex-direction: column;
+margin-left:0;
+}
+.start__container {
+    margin-left: 0%;
+}
+
+.start__buttons {
+    padding-bottom: 48px;
+}
+
+.footer__row {
+    margin-left: 0%;
+}
+
+.nav__links {
+    display: none;
+}
+
+.fa-bars {
+    color: #6415ff;
+    border: none
+}
+
+}
 
 /*SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
 
