@@ -1208,9 +1208,21 @@ margin-left:0;
     display: none;
 }
 
+.btn__menu {
+    border: none;
+    width: 36px;
+    background-color: #fff;
+}
+
 .fa-bars {
     color: #6415ff;
-    border: none
+    border: none;
+    width: 48px;
+    height: 48px;
+
+}
+.fas {
+   font-size: 32px;
 }
 
 }
