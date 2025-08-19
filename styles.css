@@ -1295,8 +1295,49 @@ margin-left:0;
     
 }
 
-/*SMALL PHONES, TABLETS, LARGE SMARTPHONES*/
+/*TABLETS, LARGE SMARTPHONES*/
 
-@media (max-width: 768px)
+@media (max-width: 768px){
+ .features__subhead {
+    text-align: center;
+ }
+
+ .feature {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 720px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+}
+
+.quality__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.quality__work--wrapper{
+    width: 90%;
+    text-align: center;
+    align-items: center;
+}
+.quality__bucket {
+    width: 80%;
+    margin-right: 64px;
+    padding-top: 64px;
+}
+
+.steps__row{
+    display: flex;
+    flex-direction: column;
+}
 
 
+}
