@@ -1403,4 +1403,12 @@ width: 70%;
 .start__buttons {
     width: 70%;
 }
+
+.footer__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__category {
+    width: calc(100/3);
+}
 }
