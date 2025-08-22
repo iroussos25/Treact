@@ -1318,7 +1318,7 @@ margin-left:0;
 
 .quality__row {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     
@@ -1327,21 +1327,30 @@ margin-left:0;
     width: 100%;
     text-align: center;
     align-items: center;
+    margin-top: 48px;
+    max-width: 548px;
 }
 .quality__bucket {
     width: 100%;
     margin-right: 64px;
     padding-top: 64px;
+    max-width: 448px;
 }
 
 
 .steps__row {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    padding: 48px 0;
+    text-align: center;
+}
+
+.li__affordable, .li__professional {
+    text-align: center;
 }
 
 
 .steps__bucket {
-    padding-bottom: 0px;
+    padding: 86px 0;
 }
 
 .step {
@@ -1357,12 +1366,10 @@ margin-left:0;
     margin-bottom: 12px;
 }
 
-.values__container{
-        padding-top: 168px;
-}
+
 .values__row {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: center;
     margin-left: 0;
@@ -1377,13 +1384,15 @@ margin-left:0;
 
 
 .values__wrapper {
-    width: 80%;
+    width: 100%;
     align-items: center;
+    max-width: 448px;
 }
 .values__list {
-    width: 80%;
+    width: 100%;
     margin: 24px auto;
     text-align: left;
+    max-width: 448px;
 }
 
 .li__affordable {
@@ -1396,11 +1405,11 @@ margin-left:0;
 }
 
 .values__figure {
-    width: 80%;
+    width: 100%;
     margin-top: 86px;
+    max-width: 448px;
 }
-.pricing__row{
-margin-left: 24px;}
+
 
 .pricing__card {
     width: 60%
@@ -1414,20 +1423,24 @@ margin-left: 24px;}
 
 }
 .testimonials__figure{
-    width: 70%;
+    width: 100%;
     margin-bottom: 64px;
+    max-width: 448px;
 }
 
 .testimonials__wrapper {
-width: 70%;
+width: 100%;
+max-width: 448px;
 }
 
 .title__start{
-    width: 70%;
+    width: 100%;
+    max-width: 448px;
+    text-align: center;
 }
 
 .start__buttons {
-    width: 70%;
+    width: 50%;
 }
 
 .footer__wrapper {
