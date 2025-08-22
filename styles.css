@@ -201,14 +201,12 @@ body {
     }
     .image__wrapper {
         width: calc(100%-40%);
-        max-width: 512px;
         
     }
 
     .header__img {
-        width: 100;
-        max-width: 720px;
-        padding-right: 64px;
+        width: 100%;
+        max-width: 512px;
     }
 
     .header__input {
@@ -332,6 +330,7 @@ body {
         color: #6a707a;
         margin-bottom: 24px;
         max-width: 600px;
+        line-height: 1.5;
     }
 
     .feature__h2 {
@@ -392,11 +391,10 @@ body {
     line-height: 2;
     margin-bottom: 24px;
 }   
-.row.quality__row {
+ .quality__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 48px;
 }
 
 .quality__work--wrapper {
@@ -437,17 +435,16 @@ body {
 /*STEPS*/
 
     .steps__figure {
-        width: 85%;
+        width: 100%;
         height: auto;
         position: relative;
 }
 
 .steps__row {
     display: flex;
-    align-items: space-between;
     justify-content: space-between;
-    position: relative;
-    margin: 84px 68px;
+    align-items: center;
+    margin: 84px 0;
 }
 
 .step__p, 
@@ -482,7 +479,7 @@ body {
     z-index: -1;
 }
 .steps__bucket {
-    max-width: 100%;
+    width: 50%;
     height: auto;
     display: flex;
     align-items: center;
@@ -515,7 +512,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 68px;
+    padding: 64px 0;
 }
 .values__figure {
     width: 50%;
@@ -615,6 +612,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 64px 0;
 
 }
 
@@ -1076,6 +1074,11 @@ align-items: center;
     padding-bottom: 32px;
 }
 
+.header__text {
+        line-height: 1.5;
+        color: #6a707a;
+        font-weight: 600;
+    }
 
 /*LARGE TABLETS AND SMALL LAPTOPS*/
 
@@ -1083,13 +1086,16 @@ align-items: center;
 
     .header__row {
         display: flex;
-        width: 100%;
-        max-width: 1024px;
         flex-direction: column;
-        align-items: center;
-        margin:0 auto;
-        padding: 64px 0
+        margin: 0 auto;
+        padding: 64px 0;
+        text-align: center;
         
+    }
+
+    .header__text {
+        max-width: 600px;
+        margin-top: 8;
     }
 
     .customers__wrapper {
@@ -1125,6 +1131,8 @@ align-items: center;
     position: relative
 }
 
+
+
 .steps__figure {
     position: relative;
     bottom: -30%
@@ -1144,18 +1152,15 @@ align-items: center;
     margin: 64px
 }
 .testimonials__heading, .values__heading,.pricing__heading,  .features__heading, .quality__work--heading, .header__title, .steps__heading{
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 900;
 }
 .steps__bucket {
-    width: 50%;
     padding-bottom: 68px;
 }
 
 .steps__content {
-    margin-right: 48px;
     max-width: 400px;
-    right:5%
 }
 
 
@@ -1194,9 +1199,7 @@ align-items: center;
 .testimonials__figure {
     width:40% ;
 }
-.testimonials__wrapper {
-    width: 40%
-}
+
 
 .start__row {
 display: flex;
@@ -1310,7 +1313,7 @@ margin-left:0;
 .features {
     display: flex;
     flex-wrap: wrap;
-    max-width: 350px;
+    max-width: 450px;
 }
 
 .quality__row {
@@ -1321,30 +1324,38 @@ margin-left:0;
     
 }
 .quality__work--wrapper{
-    width: 90%;
+    width: 100%;
     text-align: center;
     align-items: center;
 }
 .quality__bucket {
-    width: 80%;
+    width: 100%;
     margin-right: 64px;
     padding-top: 64px;
 }
 
-.steps__row{
-    display: flex;
-    flex-direction: column;
-    flex-direction: column-reverse;
-    align-items: center;
-    margin-top: 248px;
-}
 
+.steps__row {
+    flex-direction: column-reverse;
+}
 
 
 .steps__bucket {
     padding-bottom: 0px;
 }
 
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.step__number {
+    margin: 0 auto;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
 
 .values__container{
         padding-top: 168px;
@@ -1358,6 +1369,12 @@ margin-left:0;
     padding-top: 0px;
 
 }
+
+.steps__content, .steps__bucket {
+    width: 100%;
+    max-width: 448px;
+}
+
 
 .values__wrapper {
     width: 80%;
@@ -1422,6 +1439,7 @@ width: 70%;
     margin-top: 48px;
     padding-left: 48px;
 }
+
 }
 
 
