@@ -960,13 +960,10 @@ align-items: center;
 
 .footer__container {
     width: 100%;
-    max-width: 1200px;
     margin-top: 64px;
 }
 
 .footer__row{
-    width: 100%;
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     background-color: #6415ff;
@@ -1014,22 +1011,23 @@ align-items: center;
 }
 
 .t__foot {
-    width: 24px;
-    height: 24px;
-    }
+    width: 32px;
+    height: 32px;
+}
 
-    .footer__foot {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        padding: 24px 68px;
-
-    }
-    .footer__title {
-        font-weight: 900;
-        font-size: 20px;
-        color: white;
+.footer__foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px 68px;
+    
+}
+.footer__title {
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    padding-left: 8px;
     }
 
     .footer__logo {
@@ -1176,7 +1174,9 @@ align-items: center;
 }
 
 .pricing__card {
-    margin: 16px
+    margin: 16px;
+    width: 100%;
+    max-width: 400px;
 }
 
 .testimonials__container {
@@ -1404,9 +1404,6 @@ margin-left:0;
 }
 
 
-.pricing__card {
-    width: 60%
-}
 
 .testimonials__row {
     margin-top: 68px;
@@ -1486,6 +1483,31 @@ max-width: 448px;
         
 }
 
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 8px;
+    margin: 0 16px;
+}
+.feature__text {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.feature__wrapper {
+
+    margin: 0 auto;
+}
+
+.quality__container {
+margin: 0 auto;
+
+padding-top: 48px;
+}
+
 .btn {
     padding: 16px 0;
     margin: 16px 0;
@@ -1516,10 +1538,25 @@ max-width: 448px;
 .people {
     display: flex;
     flex-direction: column;
+    margin-top: 8px;
+}
+
+.testimonials__arrows {
+    margin-top: 32px;
 }
 
 .start__buttons{
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.btn__start, .btn__contact {
+    margin: 8px 0;
+    padding: 12px 24px;
+    font-size: 14px;
 }
 
 
@@ -1529,8 +1566,9 @@ max-width: 448px;
     line-height: 2;
 }
 
+
 .footer__text {
-    margin-bottom: 8px;
+    margin: 32px 0;
 }
 
 
